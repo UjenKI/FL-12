@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: $mainBackground;
+    button{
+        @include button;
+    }
+    header{
+        background: url($headDayBg) no-repeat center;
+        height: 810px;
+        border-bottom-right-radius: 50em 13em;
+        background-position: 10% 21%;
+        .header-wrap{
+            margin: 0 131px;
+            .landing-logo{
+                display: inline-flex;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 23px 16px 0px 0px;
+                }
+                p{
+                    font-size: 25px;
+                    font-family: map-get($fonts, fontLogo);
+                    font-weight: 600;
+                    color: $textTitleh1;
+                    text-align: center;
+                    span{
+                        font-size: 11px;
+                        display: block;
+                    }
+                }
+            }
+            .header_heading{
+                font-size: 70px;
+                font-weight: bold;
+                font-family: map-get($fonts, font);
+                display: block;
+                width: 50%;
+                color: $textTitleh1;
+                position: relative;
+                &::before{
+                    content: 'awesome';
+                    font-family: map-get($fonts, font);
+                    font-size: 70px;
+                    color: $textTitleh1;
+                    font-weight: bold;
+                    width: 296px;
+                    height: 80px;
+                    background: $textSelection;
+                    position: absolute;
+                    margin: 88px 0px 0px 0px;
+                }
+            }
+            .header_text{
+                width: 622px;
+                font-family: map-get($fonts, fontLogo);
+                font-size: 15px;
+                word-spacing: 3px;
+                white-space: pre-line;
+                color: $textTitleh1;
+            }
+            
+            .header_button{
+                margin-top: 49px;
+            }
+            .login{
+                    @include mainLink;
+                    margin: 0 92px;
+            }
+            
+            
+            
+        }
+    
+    }
+    .section{
+        margin-bottom: 175px;
+        .section_text{
+            text-align: center;
+            font-size: 48px;
+            font-family: map-get($fonts, font);
+            font-weight: 600;
+            color: $textTitleh1;
+            &::before{
+                content: 'adventure';
+                font-family: map-get($fonts, font);
+                font-size: 48px;
+                color: $textTitleh1;
+                font-weight: 600;
+                width: 212px;
+                height: 50px;
+                background: $textSelection;
+                position: absolute;
+                margin: 0px 0px 0px 252px;
+            }
+        }
+        
+        .section_card_wrap{
+            width: 910px;
+            margin: 0 auto;
+            
+            .section_card{
+                background: $cardBackground;
+                border-radius: 7px;
+                margin: 20px 0;
+                padding: 13px;
+                height: 232px;
+                .section_card_img{
+                    float: left;
+                    height: 100%;
+                }
+                .section_card_right_container{
+                    width: 415px;
+                    float: right;
+                    padding: 26px 41px;
+                    font-family: map-get($fonts, font);
+                    color: $textBlock;
+                    .section_card_heading{
+                        text-align: center;
+                        font-size: 23px;
+                        font-weight: 700;
+                        color: $cardTxtTitle;
+                    }
+                    .section_card_text{
+                        font-size: 14px;
+                        word-spacing: 3px;
+                        font-family: map-get($fonts, fontLogo);
+                    }
+                    .section_link{
+                        @extend .section_card_text;
+                        display: block;
+                        text-align: center;;
+                        color: $textBlock;
+                        font-family: map-get($fonts, font);
+
+                    }
+                }
+            }
+        }
+        .section_banner{
+            background: linear-gradient(to right, $gradStart, $gradEnd);
+            width: 800px;
+            height: 124px;
+            margin: 96px 94px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 156px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 999;
+            .section_banner_heading{
+                @extend .section_text;
+                font-size: 36px;
+                font-weight: 700;
+                margin-bottom: 5px;
+                &::before{
+                    content: "start";
+                    width: 76px;
+                    height: 38px;
+                    font-size: 36px;
+                    font-weight: 700;
+                    margin: 0px 0px 0px 146px;
+                }
+            }
+            .section_banner_text{
+                @extend .section_card_text;
+                font-family: map-get($fonts, font);
+                color: $textBlock;
+                margin: 1px 1px 45px 1px;
+            }
+
+        }
+    }
+    .footer{
+        background: $cardBackground;
+        font-family: map-get($fonts, fontLogo);
+        height: 235px;
+        color: $textBlock;
+        position: relative;
+        .footer-wrap{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 45px;
+            align-items: flex-end;
+            height: 100%;
+            .footer_logo{
+                display: flex;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 23px 16px 0px 0px;
+                }
+                p{
+                    font-size: 25px;
+                    
+                    font-weight: 600;
+                    
+                    text-align: center;
+                    span{
+                        font-size: 11px;
+                        display: block;
+                    }
+                }
+            }
+            .footer_text{
+                width: 323px;
+                
+            }
+            .footer-cr{
+                margin-bottom: 33px;
+            }
+        }
+    }
+}

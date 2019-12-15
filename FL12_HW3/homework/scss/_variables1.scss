@@ -1,0 +1,37 @@
+$textTitleh1:#2c2f3c;
+$textSelection:#14a0c7;
+$btnBackground:#699900;
+$mainBackground:#ffffff;
+$cardBackground:#21232e;
+$textBlock:#c0c3ce;
+$gradStart:#65950f;
+$gradEnd:#2d5bd7;
+// $font:Source Sans Pro;
+$cardTxtTitle:#ffffff;
+// $fontLogo:Source Sans Pro;
+$headDayBg:'../img/m-h-day.jpg';
+$fonts: (
+    font: Source Sans Pro,
+    fontLogo: Source Sans Pro
+);
+
+@mixin button {
+    width: 140px;
+    height: 43px;
+    color: $mainBackground;
+    background: $btnBackground;
+    border: none;
+    border-radius: 3px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700;
+    &:hover{
+        cursor: pointer;
+    }
+}
+@mixin mainLink {
+    color: $mainBackground;
+    font-family: map-get($fonts, font);
+    font-size: 16px;
+    font-weight: 600;
+}

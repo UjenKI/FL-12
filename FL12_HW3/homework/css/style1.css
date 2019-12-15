@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff; }
+  body button {
+    width: 140px;
+    height: 43px;
+    color: #ffffff;
+    background: #699900;
+    border: none;
+    border-radius: 3px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700; }
+    body button:hover {
+      cursor: pointer; }
+  body header {
+    background: url("../img/m-h-day.jpg") no-repeat center;
+    height: 810px;
+    border-bottom-right-radius: 50em 13em;
+    background-position: 10% 21%; }
+    body header .header-wrap {
+      margin: 0 131px; }
+      body header .header-wrap .landing-logo {
+        display: inline-flex; }
+        body header .header-wrap .landing-logo img {
+          width: 50px;
+          height: 50px;
+          margin: 23px 16px 0px 0px; }
+        body header .header-wrap .landing-logo p {
+          font-size: 25px;
+          font-family: Source Sans Pro;
+          font-weight: 600;
+          color: #2c2f3c;
+          text-align: center; }
+          body header .header-wrap .landing-logo p span {
+            font-size: 11px;
+            display: block; }
+      body header .header-wrap .header_heading {
+        font-size: 70px;
+        font-weight: bold;
+        font-family: Source Sans Pro;
+        display: block;
+        width: 50%;
+        color: #2c2f3c;
+        position: relative; }
+        body header .header-wrap .header_heading::before {
+          content: 'awesome';
+          font-family: Source Sans Pro;
+          font-size: 70px;
+          color: #2c2f3c;
+          font-weight: bold;
+          width: 296px;
+          height: 80px;
+          background: #14a0c7;
+          position: absolute;
+          margin: 88px 0px 0px 0px; }
+      body header .header-wrap .header_text {
+        width: 622px;
+        font-family: Source Sans Pro;
+        font-size: 15px;
+        word-spacing: 3px;
+        white-space: pre-line;
+        color: #2c2f3c; }
+      body header .header-wrap .header_button {
+        margin-top: 49px; }
+      body header .header-wrap .login {
+        color: #ffffff;
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0 92px; }
+  body .section {
+    margin-bottom: 175px; }
+    body .section .section_text, body .section .section_banner .section_banner_heading {
+      text-align: center;
+      font-size: 48px;
+      font-family: Source Sans Pro;
+      font-weight: 600;
+      color: #2c2f3c; }
+      body .section .section_text::before, body .section .section_banner .section_banner_heading::before {
+        content: 'adventure';
+        font-family: Source Sans Pro;
+        font-size: 48px;
+        color: #2c2f3c;
+        font-weight: 600;
+        width: 212px;
+        height: 50px;
+        background: #14a0c7;
+        position: absolute;
+        margin: 0px 0px 0px 252px; }
+    body .section .section_card_wrap {
+      width: 910px;
+      margin: 0 auto; }
+      body .section .section_card_wrap .section_card {
+        background: #21232e;
+        border-radius: 7px;
+        margin: 20px 0;
+        padding: 13px;
+        height: 232px; }
+        body .section .section_card_wrap .section_card .section_card_img {
+          float: left;
+          height: 100%; }
+        body .section .section_card_wrap .section_card .section_card_right_container {
+          width: 415px;
+          float: right;
+          padding: 26px 41px;
+          font-family: Source Sans Pro;
+          color: #c0c3ce; }
+          body .section .section_card_wrap .section_card .section_card_right_container .section_card_heading {
+            text-align: center;
+            font-size: 23px;
+            font-weight: 700;
+            color: #ffffff; }
+          body .section .section_card_wrap .section_card .section_card_right_container .section_card_text, body .section .section_card_wrap .section_card .section_card_right_container .section_link, body .section .section_card_wrap .section_card .section_card_right_container .section_banner .section_banner_text, body .section .section_banner .section_card_wrap .section_card .section_card_right_container .section_banner_text {
+            font-size: 14px;
+            word-spacing: 3px;
+            font-family: Source Sans Pro; }
+          body .section .section_card_wrap .section_card .section_card_right_container .section_link {
+            display: block;
+            text-align: center;
+            color: #c0c3ce;
+            font-family: Source Sans Pro; }
+    body .section .section_banner {
+      background: linear-gradient(to right, #65950f, #2d5bd7);
+      width: 800px;
+      height: 124px;
+      margin: 96px 94px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 156px;
+      border-radius: 5px;
+      position: absolute;
+      z-index: 999; }
+      body .section .section_banner .section_banner_heading {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 5px; }
+        body .section .section_banner .section_banner_heading::before {
+          content: "start";
+          width: 76px;
+          height: 38px;
+          font-size: 36px;
+          font-weight: 700;
+          margin: 0px 0px 0px 146px; }
+      body .section .section_banner .section_banner_text {
+        font-family: Source Sans Pro;
+        color: #c0c3ce;
+        margin: 1px 1px 45px 1px; }
+  body .footer {
+    background: #21232e;
+    font-family: Source Sans Pro;
+    height: 235px;
+    color: #c0c3ce;
+    position: relative; }
+    body .footer .footer-wrap {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 45px;
+      align-items: flex-end;
+      height: 100%; }
+      body .footer .footer-wrap .footer_logo {
+        display: flex; }
+        body .footer .footer-wrap .footer_logo img {
+          width: 50px;
+          height: 50px;
+          margin: 23px 16px 0px 0px; }
+        body .footer .footer-wrap .footer_logo p {
+          font-size: 25px;
+          font-weight: 600;
+          text-align: center; }
+          body .footer .footer-wrap .footer_logo p span {
+            font-size: 11px;
+            display: block; }
+      body .footer .footer-wrap .footer_text {
+        width: 323px; }
+      body .footer .footer-wrap .footer-cr {
+        margin-bottom: 33px; }
