@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 900px;
+}
+header{
+    padding: 14px 0;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-item h2{
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #555555;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li{
+    list-style-type: none;
+    padding: 10px 26px;
+}
+.link{
+    text-decoration: none;
+    color: #555555;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.link:hover{
+    color: #bfba55;
+}
+.poster{
+    background: url(../img/home-bg.jpg) 39% 1% no-repeat, center;
+    height: 700px;
+    position: relative;
+}
+.after-item{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+    z-index: 1;
+    position: absolute;
+}
+.poster-item{
+    text-align: center;
+    padding: 274px 319px;
+    position: absolute;
+    z-index: 4;
+}
+.poster-item h1{
+    font-family: "Source Sans Pro";
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+}
+.poster-item p{
+    color: #bfba55;
+    margin: 40px 0;
+}
+.discover{
+    width: 146px;
+    height: 45px;
+    border-radius: 23px;
+    border: none;
+    font-family: serif;
+    letter-spacing: 1px;
+}
+.discover:hover{
+    cursor: pointer;
+}
+.content{
+    margin: 120px 0;
+}
+.content-block{
+    margin: 0 auto;
+    width: 900px;
+}
+.content-block img{
+    width: 100%;
+}
+.content-block h2{
+    margin: 15px 0;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+}
+.content-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+}
+.content-item img{
+    width: 50px;
+    border-radius: 50px;
+}
+.content-item p{
+    margin: 0 10px;
+    color: #555555;
+}
+.content-block button{
+    width: 146px;
+    background: #fff;
+    height: 45px;
+    border-radius: 23px;
+    border: 1px solid #555555;
+    font-family: serif;
+    letter-spacing: 1px;
+    color: #555555;
+    margin: 35px 0;
+}
+.content-block button:hover{
+    cursor: pointer;
+}
+.text-content{
+    color: #555555;
+    margin: 30px 0;
+}
+i{
+    margin: 0 5px;
+}
+footer{
+    background: #000000;
+}
+.footer-block{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.footer-item{
+    padding: 50px 101px;
+    width: 50%;
+}
+.footer-item h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1px;
+}
+.footer-item p{
+    color: #555555;
+    margin: 10px 0;
+    font-size: 12px;
+}
